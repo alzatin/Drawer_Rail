@@ -217,6 +217,10 @@
         {
           "name": "Shape 3",
           "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
         }
       ]
     },
@@ -285,8 +289,8 @@
     },
     {
       "atomType": "Intersection",
-      "x": 0.8394833948339484,
-      "y": 0.7378048780487805,
+      "x": 0.8375350140056022,
+      "y": 0.7671641791044775,
       "uniqueID": "id-14528",
       "ioValues": [
         {
@@ -448,8 +452,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4040590405904059,
-      "y": 0.5548780487804877,
+      "x": 0.4096638655462185,
+      "y": 0.5522388059701493,
       "uniqueID": "id-13242",
       "name": "holes",
       "topLevel": false,
@@ -1228,7 +1232,7 @@
         },
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-13493",
+          "ap1ID": "id-13499",
           "ap2ID": "id-13244"
         },
         {
@@ -1248,6 +1252,19 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Color",
+      "x": 0.4957983193277311,
+      "y": 0.5940298507462687,
+      "uniqueID": "id-14695",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Keep Out"
     }
   ],
   "allConnectors": [
@@ -1324,6 +1341,16 @@
     {
       "ap2Name": "Shape 2",
       "ap1ID": "id-13144",
+      "ap2ID": "id-13029"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-13242",
+      "ap2ID": "id-14695"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-14695",
       "ap2ID": "id-13029"
     }
   ],
