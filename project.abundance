@@ -304,6 +304,19 @@
       ]
     },
     {
+      "atomType": "Color",
+      "x": 0.4957983193277311,
+      "y": 0.5940298507462687,
+      "uniqueID": "id-14695",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Keep Out"
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.5876383763837638,
       "y": 0.20426829268292684,
@@ -1252,19 +1265,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Color",
-      "x": 0.4957983193277311,
-      "y": 0.5940298507462687,
-      "uniqueID": "id-14695",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "selectedColor": "Keep Out"
     }
   ],
   "allConnectors": [
@@ -1344,14 +1344,14 @@
       "ap2ID": "id-13029"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-13242",
-      "ap2ID": "id-14695"
-    },
-    {
       "ap2Name": "Shape 4",
       "ap1ID": "id-14695",
       "ap2ID": "id-13029"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-13242",
+      "ap2ID": "id-14695"
     }
   ],
   "fileTypeVersion": 1,
