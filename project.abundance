@@ -1570,8 +1570,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.9411764705882353,
-      "y": 0.6626865671641792,
+      "x": 0.9026610644257702,
+      "y": 0.6895522388059702,
       "uniqueID": "id-14921",
       "name": "Extract Rail_outie",
       "ioValues": [
@@ -1624,6 +1624,66 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.884453781512605,
+      "y": 0.9014925373134328,
+      "uniqueID": "id-14933",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Drawer_Rail_Outie",
+          "currentEquation": "Drawer_Rail_Outie"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Drawer_Rail_Outie"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8907563025210083,
+      "y": 0.3552238805970149,
+      "uniqueID": "id-14938",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Drawer_Rail_innie",
+          "currentEquation": "Drawer_Rail_innie"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Drawer_Rail_innie"
     }
   ],
   "allConnectors": [
@@ -1699,6 +1759,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-13148",
+      "ap2ID": "id-14938"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-14528",
       "ap2ID": "id-13148"
     },
@@ -1716,6 +1781,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-13242",
       "ap2ID": "id-14695"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-14921",
+      "ap2ID": "id-14933"
     },
     {
       "ap2Name": "Shape 3",
